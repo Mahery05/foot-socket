@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #007BFF;
+}
+
+#gameArea {
+    width: 800px;
+    height: 600px;
+    background-color: #FFF;
+    position: relative;
+    border: 2px solid #000;
+    margin-top: 10px;
+}
+
+.player {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+.ball {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
