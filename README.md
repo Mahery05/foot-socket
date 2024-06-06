@@ -1,6 +1,6 @@
 # foot-socket
 
 # Installation
-cd websocket\backend
-npm i
-npm start
+- cd websocket\backend
+- npm i
+- npm start
